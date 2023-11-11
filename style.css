@@ -638,6 +638,10 @@ sup , sub {
       display: none;
    }
 
+   section {
+      width: 100%;
+   }
+
    .Home {
       padding: 50px 0px;
    }
@@ -696,14 +700,18 @@ sup , sub {
       padding-top: 20px;
       padding-bottom: 50px;
    }
- 
+   
+   .price-plan {
+      width: 100%;
+   }
+
    .prices {
       flex-direction: column;;
-      
+      width: 90%;
    }
 
    .price {
-      width: 70%;
+      width: 90%;
       margin: auto;
       margin-bottom: 15px;
    }
@@ -722,3 +730,4 @@ sup , sub {
       margin-bottom: 15px;
    }
 }
+
